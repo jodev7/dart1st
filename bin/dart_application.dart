@@ -118,4 +118,20 @@ print(phoneBook);
 // if(number < 5) {
 //   print('Number is less than five');
 // }
+
+
+
+
+
+// ------------------------------  OOP: Classes and objects  ---------------------
+// var article = Article();
+// print(article.title);
+
+
+
+// ------------------------------  OOP: Visibility. Getters / Setters  ---------------------
+
+
 }
+
+
