@@ -24,9 +24,17 @@ void main() {
   // print(d);
 
 
+/*
   const hexColor = 0xFFFF0000; //or final
   print(hexColor);
 
   final h2 = 0xFFFF0000.abs();
   print(h2);
+  */
+
+
+  //int -> double | toDouble()
+  //double -> int | round()
+  //num -> string | toString() / toStringAsFixed()
+  //string -> num | parse() / tryParse()
 }
