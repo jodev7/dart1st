@@ -1,1 +1,1 @@
-# dart1st
+A simple command-line application.
