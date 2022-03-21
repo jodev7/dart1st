@@ -1,3 +1,4 @@
+import 'dart:io';
 void main() {
   // //Numbers     -    num, int, double
   // num n1 = 1.1;
@@ -37,4 +38,84 @@ void main() {
   //double -> int | round()
   //num -> string | toString() / toStringAsFixed()
   //string -> num | parse() / tryParse()
+
+
+
+
+  // ------------------------------ Arithmetic operaors ---------------------
+
+/*
+  print('3 + 2 = ${3 + 2}');
+  print('3 - 2 = ${3 - 2}');
+  print('3 * 2 = ${3 * 2}');
+  print('3 / 2 = ${3 / 2}');
+  print('-3 = ${-3}');
+  print('3 % 2 = ${3 % 2}');
+  print('3 ~/ 2 = ${3 ~/ 2}');
+  print('=====================');
+
+
+  var iterationNumber = 1;
+
+  //iterationNumber += 1;
+  --iterationNumber;
+  print(iterationNumber);
+  */
+
+
+
+
+
+// ------------------------------ Operators - ?. , ?? , ??= , as , is , is!---------------------
+
+
+// num number;
+// print(number?.isNegative);
+
+
+
+
+
+// ------------------------------  DateTime() class  ---------------------
+
+// var date1 = DateTime.now();
+// print(date1);
+
+
+
+
+
+// ------------------------------ Collections (List, Set, Map) ---------------------
+
+/*
+var numbers = <int>[1,2,3]; //{} set
+var numbers1 = [0, ...numbers, 4, 5];
+print(numbers1);
+print(numbers);
+
+
+//map
+var phoneBook = <String, String>{
+  'name1': 'phone1',
+  'name2': 'phone1',
+  'name3': 'phone1',
+};
+
+print(phoneBook);
+*/
+
+
+
+
+
+
+// ------------------------------ Control flow statements (if, else, sitch, case) ---------------------
+
+// print('Enter Integer: ');
+
+// var number = int.parse(stdin.readLineSync());
+
+// if(number < 5) {
+//   print('Number is less than five');
+// }
 }
